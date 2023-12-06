@@ -25,6 +25,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class LoginFragment : BaseFragment() {
 
     var binding: FragmentLoginBinding? = null
+    
     private val authViewModel: AuthViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
